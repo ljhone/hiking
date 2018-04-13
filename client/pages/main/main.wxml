@@ -1,0 +1,10 @@
+<!--pages/main/main.wxml-->
+<view class="title-bar">
+  <image class="title-image" src="./images/1.jpeg" mode="center">  
+  </image>
+</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>

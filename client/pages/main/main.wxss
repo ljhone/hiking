@@ -1,0 +1,11 @@
+/* pages/main/main.wxss */
+
+.title-bar{
+    height: 100rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.title-image{
+    height: 100rpx;
+}
