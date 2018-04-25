@@ -1,10 +1,24 @@
 <!--pages/main/main.wxml-->
 <view class="title-bar">
-  <image class="title-image" src="./images/1.jpeg" mode="center">  
+  <image class="title-image" src="./images/1.jpeg" mode="aspectFill">
+    <text class="title-text">远足径</text>
   </image>
 </view>
-  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
-    <view class="flex-item bc_green">1</view>
-    <view class="flex-item bc_red">2</view>
-    <view class="flex-item bc_blue">3</view>
+<view class="flex-wrp" style="height: 300px;flex-direction:column;">
+  <view class="item-container">
+    <image class="item-image" src="./images/1.jpeg" mode="aspectFill">
+      <text class="item-text">麦里浩径</text>
+    </image>
   </view>
+  <view class="item-container">
+    <image class="item-image" src="./images/1.jpeg" mode="aspectFill">
+      <text class="item-text">东澳古道</text>
+    </image>
+  </view>
+  <view class="item-container">
+    <image class="item-image" src="./images/1.jpeg" mode="aspectFill">
+      <text class="item-text">test</text>
+    </image>
+  </view>
+  
+</view>

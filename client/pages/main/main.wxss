@@ -1,11 +1,48 @@
 /* pages/main/main.wxss */
 
 .title-bar{
-    height: 100rpx;
-    margin: 20rpx;
-    border-radius: 50%;
+  height: 200rpx;
+  width: 100%;
+  /* margin: 20rpx; */
+  border-radius: 50%;
+  position: relative;
 }
 
 .title-image{
-    height: 110rpx;
+  height: 200rpx;
+  width: 100%;
+  position: absolute;
+}
+
+.title-text{
+  font-size: 100rpx;
+  -webkit-text-stroke: 4rpx black;
+  color: white;
+  right: 0rpx;
+  bottom: 0rpx;
+  position: absolute;
+}
+
+.item-container{
+  margin: 20rpx;
+}
+
+.item-image{
+  height: 150rpx;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.item-text{
+  font-size: 80rpx;
+  -webkit-text-stroke: 3rpx black;
+  color: white;
+  left: 0rpx;
+  top: 3rpx;
+  position: absolute;
+}
+
+.flex-wrp{
+  position: relative;
 }
