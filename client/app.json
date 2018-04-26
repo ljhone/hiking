@@ -2,7 +2,8 @@
   "pages":[
     "pages/main/main",
     "pages/index/index",
-    "pages/addCgi/addCgi"
+    "pages/addCgi/addCgi",
+    "pages/content/content"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",

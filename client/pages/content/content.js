@@ -1,4 +1,4 @@
-// pages/main/main.js
+// pages/content/content.js
 Page({
 
   /**
@@ -62,14 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  /**
-   * 页面跳转
-   */
-  clickMap: function (event) {
-    wx.navigateTo({
-      url: '../../pages/content/content'
-    })
   }
 })
